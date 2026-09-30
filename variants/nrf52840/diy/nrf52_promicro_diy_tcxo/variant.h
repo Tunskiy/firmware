@@ -178,7 +178,7 @@ https://github.com/brad112358/easy_E22
 #define LORA_RESET (0 + 9) // P0.09 NRST
 
 // RX/TX for RFM95/SX127x
-#define RF95_RXEN (0 + 17)    // P0.17
+#define RF95_RXEN RADIOLIB_NC // P0.17
 #define RF95_TXEN RADIOLIB_NC // Assuming that DIO2 is connected to TXEN pin. If not, TXEN must be connected.
 
 // SX126X CONFIG
